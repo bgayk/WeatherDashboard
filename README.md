@@ -8,5 +8,5 @@ The application currently only queries the OpenWeather API and displays the
 
 Data will be paginated/styled and resubmitted.
 
-Application Link: https://https://bgayk.github.io/WeatherDashboard
+Application Link: https://bgayk.github.io/WeatherDashboard
 
