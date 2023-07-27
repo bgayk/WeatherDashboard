@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SandBox</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  </head>
+  
+  <body>
+  <section class="hero">
+    <div class="container">
+      <h1 class="title" hero-title>
+        Weather Dashboard
+      </h1>
+      <p class="subtitle" hero-subtitle>
+        Search for a city to get the current weather and 5 day forecast.
+      </p>
+    </div>
+   </section>
+
+   <section class = "section">
+    <div class="container" id="search-container">
+        <div class="field has-addons">
+          <div class="control is-expanded">
+            <input class="input" type="text" placeholder="Search for a city" id="city-input">
+          </div>
+          <div class="control">
+            <button class="button is-info" id="search-button">
+              Search
+            </button>
+          </div>
+    </div>
+  
+     <div class="notification is-danger" id="error-notification" style="display: none;">
+              <button class="delete"></button>
+              <strong>City not found!</strong>
+     </div>     
+   </section> 
+  
+   <section class="section" id="current-weather-section">
+        
+
+   </section>
+
+   <section class="section">
+    <div class="container" id="forecast-weather-section">
+      <table id="tbl">
+        <thead id="thead">
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+      </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script defer type="text/javascript" src="assets/js/script.js" ></script>
+  </body>
+</html>
